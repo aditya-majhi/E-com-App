@@ -60,10 +60,18 @@ const Navbar = (props) => {
             </div>
           </div>
           <ul className='text-lg my-6 space-y-3 font-semibold flex flex-col'>
-            <Link to="/home" className='cursor-pointer'>Home</Link>
-            <Link to="/products" className='cursor-pointer'>Products</Link>
-            <Link to="/about" className='cursor-pointer'>About</Link>
-            <Link to="/contact" className='cursor-pointer'>Contact</Link>
+            <NavLink to="/home" className='cursor-pointer' style={navLinkStyles}>
+                Home
+            </NavLink>
+            <NavLink to="/products" className="cursor-pointer" style={navLinkStyles}>
+              Products
+            </NavLink>
+            <NavLink to="/about" className='cursor-pointer' style={navLinkStyles}>
+                About
+            </NavLink>
+            <NavLink to="/contact" className='cursor-pointer' style={navLinkStyles}>
+                Contact
+            </NavLink>
           </ul>
         </div>
       </div>}
