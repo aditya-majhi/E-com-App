@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/E-com-App/static/css/main.0a09fa2d.css",
+    "main.js": "/E-com-App/static/js/main.9fbd120b.js",
+    "static/js/787.0b5b94e2.chunk.js": "/E-com-App/static/js/787.0b5b94e2.chunk.js",
+    "static/media/shop-img.jpg": "/E-com-App/static/media/shop-img.f1240436adbd7aab66b8.jpg",
+    "static/media/profile.jpg": "/E-com-App/static/media/profile.cfe9f79c746ba3002568.jpg",
+    "static/media/deliveryImage.jpg": "/E-com-App/static/media/deliveryImage.8452b3f9867d6ca36ea3.jpg",
+    "static/media/Packaging.jpg": "/E-com-App/static/media/Packaging.491c4553d156bdd1751f.jpg",
+    "static/media/logo.png": "/E-com-App/static/media/logo.bdd9caa57ff49a8aa9ee.png",
+    "index.html": "/E-com-App/index.html",
+    "main.0a09fa2d.css.map": "/E-com-App/static/css/main.0a09fa2d.css.map",
+    "main.9fbd120b.js.map": "/E-com-App/static/js/main.9fbd120b.js.map",
+    "787.0b5b94e2.chunk.js.map": "/E-com-App/static/js/787.0b5b94e2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a09fa2d.css",
+    "static/js/main.9fbd120b.js"
+  ]
+}
