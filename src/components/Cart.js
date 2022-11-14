@@ -3,6 +3,7 @@ import { useSelector } from 'react-redux'
 import { useDispatch } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import { removeCart } from '../store/Slices/cartSlice';
+import { singleProduct } from '../store/Slices/productSlice';
 
 const Cart = () => {
 
@@ -19,7 +20,7 @@ const Cart = () => {
         <p className='font-bold text-xl'>$ {cartItems.price}</p>
         <div className='space-x-1.5'>
           <button className='px-2.5 py-1 bg-yellow-500 text-lg text-white font-semibold rounded-md' onClick={() => { dispatch(removeCart(cartItems))}}>Remove Item</button>
-          <NavLink to={'/productpage'}><i className="fa-solid fa-eye text-white bg-gray-300 rounded-md px-2 py-1 text-lg hover:text-sky-300"></i></NavLink>
+          <NavLink to={'/productpage'}><i className="fa-solid fa-eye text-white bg-gray-300 rounded-md px-2 py-1 text-lg hover:text-sky-300" onClick={() => {dispatch(singleProduct(cartItems.id))}}></i></NavLink>
         </div>
       </div>
     );
