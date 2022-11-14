@@ -16,7 +16,7 @@ function App() {
       <div className="bg-sky-100 h-screen">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/E-com-App" element={<Home />} />
           <Route path="/home" element={<Home />}/>
           <Route path="/productpage" element={<ProductPage />} />
           <Route path="/products" element={<Products />}/>
